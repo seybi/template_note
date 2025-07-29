@@ -83,7 +83,7 @@ for (let day = 1; day <= daysInMonth; day++) {
   
   // Добавление в контент
   if (dayEvents.length > 0) {
-    content += dayEvents.join('\n') + '\n\n';
+    content += dayEvents.join('\n') + '\n\n***\n';
   }
   
 }
